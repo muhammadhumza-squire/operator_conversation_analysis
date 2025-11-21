@@ -177,7 +177,7 @@ def normalize_and_validate(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # 👇 change this filename to your CSV if different
-df = load_csv("../operator_conversation_analysis.tsv")
+df = load_csv("./operator_conversation_analysis.tsv")
 df = normalize_and_validate(df)
 
 # =============================
